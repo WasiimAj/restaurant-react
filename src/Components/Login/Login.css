@@ -1,0 +1,79 @@
+.form {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.form h1 {
+    color: #1a1939;
+    text-align: center;
+    padding: 15px;
+}
+
+.form label {
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.form input {
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    color: rgb(88, 88, 88);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.form input:focus {
+    color: #1a1939;
+}
+
+.login {
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2311d;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.login:hover {
+    background-color: #fc4a36;
+}
+
+.form small {
+    display: block;
+    margin: auto;
+    width: 70%;
+    color:#1a1939;
+    padding: 5px;
+}
+
+.form small a {
+    color: #f2311d;
+    text-decoration: none;
+}
+
+@media screen and (min-width:100px) and (max-width:700px) {
+    .form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.customer-feedback {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top:5%;
+}
+
+.feedback {
+    float: left;
+    width: 40%;
+}
+
+.feedback h3{
+    padding: 20px 15px 0px 15px;
+    text-align: left;
+    font-weight: 200;
+}
+
+.feedback h1{
+    padding: 15px;
+    font-weight: 200;
+}
+
+.feedback p{
+    padding: 0px 15px;
+    font-weight: 200;
+    color: rgb(62, 62, 62);
+}
+
+.customer-feedback img {
+    width: 60%;
+}
+
+@media screen and (min-width:100px) and (max-width:1024px) {
+    .feedback {
+        width: 100%;
+    }
+    .customer-feedback img {
+        width: 100%;
+    }
+}

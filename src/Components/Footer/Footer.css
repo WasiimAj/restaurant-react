@@ -1,0 +1,104 @@
+.resturent-info {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(299deg, rgba(26,25,57,1) 0%, rgba(242,49,29,1) 75%);
+    margin-top: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.section-1 {
+    width: 25%;
+    float: left;
+}
+
+.section-1 img {
+    display: block;
+    width: 50%;
+    border-radius: 25px ;
+    margin: auto;
+    margin-top: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: ease-in 0.3s;
+}
+
+.section-2 {
+    display: inline-block;
+    width: 25%;
+}
+
+.section-2 h2 {
+    color: #fff;
+    text-align: left;
+    padding: 20px 15px;
+}
+
+.section-2 p {
+    color: rgb(245, 240, 240);
+    padding: 0px 15px;
+}
+
+.section-3 {
+    display: inline-block;
+    width: 25%;
+}
+
+.section-3 h2 {
+    color: #fff;
+    text-align: left;
+    padding: 20px 15px;
+}
+
+.section-3 p {
+    color: rgb(245, 240, 240);
+    padding: 0px 15px;
+}
+
+.section-3 input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    background: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(188, 188, 188);
+}
+
+.section-3 button {
+    outline: none;
+    border: none;
+    background-color: orangered;
+    margin-left: 2%;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    transition: ease-out 0.3s;
+}
+
+.section-3 button:hover {
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+
+@media screen and (min-width:100px) and (max-width:710px) {
+    .section-1 {
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .section-2 {
+        width: 80%;
+        display: block;
+        margin-top: 2%;
+        margin: auto;
+        
+    }
+    .section-3 {
+        width: 80%;
+        display: block;
+        margin-top: 2%;
+        margin: auto;
+    }
+}

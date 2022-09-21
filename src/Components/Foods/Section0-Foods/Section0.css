@@ -1,0 +1,124 @@
+.foods-head {
+    background-image: url('../../../Images/food.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Blur-div {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.646);
+}
+
+.Blur-div h1 {
+    color: #fff;
+    text-align: left;
+    padding: 100px;
+    opacity: 100%;
+    font-size: 50px;
+}
+
+.food-menu {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    height: 500px;
+}
+
+.search-nav input {
+    width: 20%;
+    float: right;
+    padding: 10px;
+    height: auto;
+    color: rgb(55, 55, 55);
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid #eee;
+}
+
+.search-nav button {
+    width: 5%;
+    float: right;
+    padding: 10px;
+    height: auto;
+    color: rgb(55, 55, 55);
+    background-color: #f2311d;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid #eee;
+}
+
+.search-nav button:hover {
+    cursor: pointer;
+}
+
+.meun {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: 1.5px solid #eee;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.all-foods {
+    margin: 0.5%;
+    width: 20%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+
+.food-type {
+    display: inline-block;
+}
+
+.food-type button {
+    width: 50%;
+    background-color: #f2311d;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.food-type button:hover {
+    cursor: pointer;
+    background-color: #fa4b38;
+}
+
+.move {
+    width: 99%;
+    height: auto;
+    margin: 0.5%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.move a{
+    padding: 5px 15px;
+    text-decoration: none;
+    background-color: #1e1f40;
+    color: #fff;
+    margin: 0.5%;
+    border-radius: 5px;
+    transition: ease-out 0.3s;
+}
+
+.move a:hover {
+    background-color: #f2311d;
+    transition: ease-out 0.3s;
+}
+
+@media screen and (min-width:100px) and (max-width:800px){
+    .search-nav button {
+        width: 8%;
+        padding: 0;
+    }
+}

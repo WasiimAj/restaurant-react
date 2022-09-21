@@ -1,0 +1,103 @@
+.Checkout {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    transition: ease-in-out 0.3s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.Checkout h2 {
+    padding: 25px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.Checkout input {
+    width: 90%;
+    margin: 0.5% 2.5%; 
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(167, 167, 167);
+    padding: 15px;
+    border-bottom: 1px solid rgb(98, 152, 62);
+    display: block;
+    transition: ease-out 0.3s;
+}
+
+.Checkout input:focus {
+    border: 1px solid #f2311d;
+    border-radius: 15px;
+    transition: ease-out 0.3s;
+}
+
+.Checkout a {
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    margin: 1% 2.5%;
+    background-color: #f2311d;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Checkout a:hover {
+    cursor: pointer;
+}
+
+.fields {
+    width: 50%;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+}
+
+.final-price {
+    width: 45%;
+    height: auto;
+    background-color: #f2311d;
+    float: right;
+    border-radius: 5px;
+    margin: 1%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: ease-in-out 0.3s;
+}
+
+.final-price h2 {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.final-price hr {
+    width: 85%;
+    margin: auto;
+}
+
+.final-price h1 {
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    .Checkout {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:700px) {
+    .Checkout {
+        width: 100%;
+    }
+    .fields {
+        width: 100%;
+    }
+    .final-price {
+        width: 98%;
+    }
+}

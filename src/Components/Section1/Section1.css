@@ -1,0 +1,85 @@
+.Section1 {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 14%;
+}
+
+.food-categorys {
+    width: 100%;
+    height: 200px;
+}
+
+.category {
+    width: 23%;
+    height: auto;
+    margin: 1%;
+    background-color: #fde3e4;
+    display: inline-block;
+}
+
+.food-category-icon {
+    float: left;
+    padding: 15px;
+    color: #d23523;
+}
+
+.category-name {
+    float: left;
+    text-align: center;
+    padding: 35px 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.info {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.info h4 {
+    color: #d23523;
+    font-weight: 100;
+}
+
+.info h2 {
+    color: #1e1f40;
+}
+
+
+.info h1 {
+    color: #1e1f40;
+    font-weight: 100;
+}
+
+.info p {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    color: #5d5e62;
+}
+
+@media screen and (min-width:500px) and (max-width:1010px) {
+    .category {
+        width: 48%;
+    }
+    .info {
+        margin-top: 45%;
+    }
+    .info p{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    .category {
+        width: 100%;
+    }
+    .info {
+        margin-top: 135%;
+    }
+    .info p{
+        width: 100%;
+    }
+}

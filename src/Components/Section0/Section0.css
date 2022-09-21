@@ -1,0 +1,99 @@
+.homeSection {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 5%;
+}
+
+.UI-text {
+    display: inline-block;
+    width: 40%;
+}
+
+.homeSection > .UI-text > h3 {
+    padding: 0px;
+    color: #5d5e62;
+    font-size: 30px;
+}
+
+.homeSection > .UI-text > h1 {
+    padding: 0px;
+    color: #d23523;
+    font-size: 38px;
+}
+
+.homeSection > .UI-text > h1 > b {
+    color: #1e1f40;
+    padding: 0px;
+}
+
+.homeSection > .UI-text > p {
+    color: #bebdbf;
+}
+
+.Image {
+    float: right;
+    width: 60%;
+}
+
+.order-btn {
+    text-decoration: none;
+    text-align: center;
+    background-color: #d23523;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 1.5% 0.5%;
+    display: inline-block;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+}
+
+.allfoods-btn {
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    color: #d23523;
+    border: 1px solid #d23523;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 1.5% 10% ;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+}
+
+.order-btn:hover {
+    color: #d23523;
+    background-color: #fff;
+    border: 1px solid #d23523;
+    transition: ease-in-out 0.3s;
+}
+
+.allfoods-btn:hover {
+    color: #fff;
+    background-color: #d23523;
+    transition: ease-in-out 0.3s;
+}
+
+.icons {
+    display: inline-block;
+    width: 48%;
+    margin: 1%;
+    padding: 5px;
+    color: #5d5e62;
+}
+
+.orange {
+    color: #d23523;
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .UI-text {
+        width: 100%;
+    }
+    .Image {
+        width: 100%;
+    }
+}

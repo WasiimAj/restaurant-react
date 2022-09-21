@@ -1,0 +1,57 @@
+.delivery-man {
+    width: 80%;
+    margin: auto;
+    margin-top: 40%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.delivery-man img {
+    width: 50%;
+    float: left;
+}
+
+.delivery-man-info {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+
+.delivery-man-info h1 {
+    padding: 10px;
+}
+
+.delivery-man-info p {
+    padding: 10px 15px;
+    color: #5d5e62;
+}
+
+.delivery-man-info h2 {
+    padding: 5px 15px;
+    font-weight: 100;
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    .delivery-man {
+        margin-top: 200%;
+    }
+    .delivery-man img {
+        width: 100%;
+    }
+    .delivery-man-info {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    .delivery-man {
+        margin-top: 700%;
+    }
+    .delivery-man img {
+        width: 100%;
+    }
+    .delivery-man-info {
+        width: 100%;
+    }
+}

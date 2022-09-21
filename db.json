@@ -1,0 +1,137 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "meals": [
+    {
+      "id": 1,
+      "mealImage": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/burger_king/items/double_whopper_double_whopper_thumbnail_1622953270743.png",
+      "mealName": "Burger King",
+      "mealPrice": 22.8,
+      "Quantity": 1,
+      "category": "burger"
+    },
+    {
+      "id": 2,
+      "mealImage": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/burger_king/items/double_whopper_double_whopper_thumbnail_1622953270743.png",
+      "mealName": "Burger King",
+      "mealPrice": 28.7,
+      "Quantity": 1,
+      "category": "burger"
+    },
+    {
+      "id": 3,
+      "mealImage": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/burger_king/items/double_whopper_double_whopper_thumbnail_1622953270743.png",
+      "mealName": "Burger King",
+      "mealPrice": 29.9,
+      "Quantity": 1,
+      "category": "burger"
+    },
+    {
+      "id": 4,
+      "mealImage": "https://static.hungrynaki.com/hungrynaki-v4/restaurants/burger_king/items/double_whopper_double_whopper_thumbnail_1622953270743.png",
+      "mealName": "Burger King",
+      "mealPrice": 26.7,
+      "Quantity": 1,
+      "category": "burger"
+    },
+    {
+      "id": 5,
+      "mealImage": "https://www.business2community.com/wp-content/uploads/2013/02/socialmediastrategy-resized-600.png",
+      "mealName": "pizza",
+      "mealPrice": 30.8,
+      "Quantity": 1,
+      "category": "pizza"
+    },
+    {
+      "id": 6,
+      "mealImage": "https://www.business2community.com/wp-content/uploads/2013/02/socialmediastrategy-resized-600.png",
+      "mealName": "pizza",
+      "mealPrice": 38.8,
+      "Quantity": 1,
+      "category": "pizza"
+    },
+    {
+      "id": 7,
+      "mealImage": "https://www.business2community.com/wp-content/uploads/2013/02/socialmediastrategy-resized-600.png",
+      "mealName": "pizza",
+      "mealPrice": 31.3,
+      "Quantity": 1,
+      "category": "pizza"
+    },
+    {
+      "id": 8,
+      "mealImage": "https://www.business2community.com/wp-content/uploads/2013/02/socialmediastrategy-resized-600.png",
+      "mealName": "pizza",
+      "mealPrice": 32.5,
+      "Quantity": 1,
+      "category": "pizza"
+    },
+    {
+      "id": 9,
+      "mealImage": "https://static.vecteezy.com/system/resources/previews/004/731/184/large_2x/bangkok-thailand-2020-kfc-kentucky-fried-chicken-with-brand-logo-free-photo.jpg",
+      "mealName": "Kentachi Fried Chicken",
+      "mealPrice": 42.5,
+      "Quantity": 1,
+      "category": "Kentachi"
+    },
+    {
+      "id": 10,
+      "mealImage": "https://static.vecteezy.com/system/resources/previews/004/731/184/large_2x/bangkok-thailand-2020-kfc-kentucky-fried-chicken-with-brand-logo-free-photo.jpg",
+      "mealName": "Kentachi Fried Chicken",
+      "mealPrice": 40.9,
+      "Quantity": 1,
+      "category": "Kentachi"
+    },
+    {
+      "id": 11,
+      "mealImage": "https://static.vecteezy.com/system/resources/previews/004/731/184/large_2x/bangkok-thailand-2020-kfc-kentucky-fried-chicken-with-brand-logo-free-photo.jpg",
+      "mealName": "Kentachi Fried Chicken",
+      "mealPrice": 49.7,
+      "Quantity": 1,
+      "category": "Kentachi"
+    },
+    {
+      "id": 12,
+      "mealImage": "https://static.vecteezy.com/system/resources/previews/004/731/184/large_2x/bangkok-thailand-2020-kfc-kentucky-fried-chicken-with-brand-logo-free-photo.jpg",
+      "mealName": "Kentachi Fried Chicken",
+      "mealPrice": 50.5,
+      "Quantity": 1,
+      "category": "Kentachi"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Burger King",
+      "price": 22.8,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "Burger King",
+      "price": 22.8,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Burger King",
+      "price": 22.8,
+      "quantity": 1,
+      "id": 3
+    }
+  ]
+}
