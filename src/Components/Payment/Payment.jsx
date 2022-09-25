@@ -20,7 +20,7 @@ const Payment = () => {
                 <label>CCV</label>
                 <input placeholder='Examble: 123'/>
 
-                <button type='submit' className='btn'>Pay</button>
+                <a href='/done' className='btn'>Pay</a>
                 </form>
 
             </div>

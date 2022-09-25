@@ -55,6 +55,11 @@
     transition: ease-in-out 0.3s;
 }
 
+.payment a {
+    text-decoration: none;
+    text-align: center;
+}
+
 @media screen and (min-width:100px) and (max-width:700px) {
     .payment {
         width: 100%;

@@ -1,0 +1,15 @@
+.Order {
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: rgba(7, 235, 22, 0.47) 0px 8px 24px;
+}
+
+.Order h3 {
+    padding: 15px 10px;
+}
+
+.Order p {
+    padding: 15px 10px;
+}

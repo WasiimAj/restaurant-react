@@ -116,22 +116,37 @@
   ],
   "cart": [
     {
-      "name": "Burger King",
-      "price": 22.8,
+      "name": "pizza",
+      "price": 30.8,
       "quantity": 1,
+      "id": 8
+    },
+    {
+      "name": "Kentachi Fried Chicken",
+      "price": 42.5,
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "name": "Kentachi Fried Chicken",
+      "price": 49.7,
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "name": "pizza",
+      "price": 30.8,
+      "quantity": 1,
+      "id": 11
+    }
+  ],
+  "chif": [
+    {
+      "name": "أبو طالب",
+      "email": "butaleb@a.com",
+      "password": "123456",
+      "Verified": true,
       "id": 1
-    },
-    {
-      "name": "Burger King",
-      "price": 22.8,
-      "quantity": 1,
-      "id": 2
-    },
-    {
-      "name": "Burger King",
-      "price": 22.8,
-      "quantity": 1,
-      "id": 3
     }
   ]
 }

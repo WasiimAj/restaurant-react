@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     transition: ease-in 0.3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .Container {
@@ -14,7 +15,6 @@
 .logo {
     width: 100px;
     display: inline-block;
-    float: left;
     transition: ease-in 0.3s;
 }
 
@@ -94,6 +94,49 @@
     color: red;
 }
 
+/* Drop Down  */
+
+
+.dropbtn {
+    background: none;
+    color: #1e1f40;
+    padding: 16px;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+
 @media screen and (min-width:635px) and (max-width:800px) {
     .Container {
         width: 100%;
@@ -112,4 +155,17 @@
     }
 }
 
+@media screen and (min-width:100px) and (max-width:1015PX) {
+    .dropbtn {
+        display: inline;
+    }
+    .UL LI{
+        display: none;
+    }
+}
 
+@media screen and (min-width:100px) and (max-width:400px) {
+    .UL2 li {
+        display: none;
+    }
+}

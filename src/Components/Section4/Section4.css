@@ -1,20 +1,21 @@
 .delivery-man {
     width: 80%;
     margin: auto;
-    margin-top: 40%;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    margin-top: 5%;
 }
 
 .delivery-man img {
     width: 50%;
-    float: left;
+    float:left;
 }
 
 .delivery-man-info {
     width: 50%;
     height: auto;
-    display: inline-block;
+    float:left;
+
 }
 
 .delivery-man-info h1 {
@@ -33,7 +34,7 @@
 
 @media screen and (min-width:500px) and (max-width:900px) {
     .delivery-man {
-        margin-top: 200%;
+        margin-top: 5%;
     }
     .delivery-man img {
         width: 100%;
@@ -46,7 +47,7 @@
 
 @media screen and (min-width:100px) and (max-width:500px) {
     .delivery-man {
-        margin-top: 700%;
+        margin-top: 10%;
     }
     .delivery-man img {
         width: 100%;

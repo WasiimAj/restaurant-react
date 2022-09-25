@@ -48,6 +48,7 @@
     margin-top: 5%;
     width: 80%;
     height: 800px;
+    display: block;
 }
 
 .Foods button {
@@ -60,7 +61,7 @@
 }
 
 .food-type {
-    display: inline-block;
+    display: block;
     width: 24%;
     margin:0.5%;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -79,17 +80,14 @@
     text-align: left;
     font-size: 20px;
     padding: 10px;
-    display: inline-block;
 }
 
 .food-type a {
-    float: right;
     text-decoration: none;
     background-color: #F2311D;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
-    margin: 2%;
 }
 
 @media screen and (min-width:100px) and (max-width:500px) {

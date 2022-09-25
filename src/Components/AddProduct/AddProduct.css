@@ -1,0 +1,108 @@
+.admin-tools {
+    width: 100%;
+    height: auto;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-tools ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+}
+
+.admin-tools ul li {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.admin-tools ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+.admin-tools ul li a:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+.product-add-delete {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.product-title {
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    display: block;
+    width: 80%;
+}
+
+.product-add-delete input {
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 206, 206);
+    outline: none;
+}
+
+.product-add-delete h1 {
+    text-align: center;
+    padding: 5px;
+    color: rgb(50, 50, 50);
+}
+
+.product-add-delete button {
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+}
+
+.product-add-delete button:hover {
+    cursor: pointer;
+    background-color: rgb(57, 56, 56);
+}
+
+.applications {
+    display: none;
+    width: 80%;
+    margin: auto;
+}
+
+.applications h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.chef-input {
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+
+.meal-image {
+    width: 100%;
+}
